@@ -17,6 +17,7 @@ class TestUtils(unittest.TestCase):
         pass
     
     def test_integrate(self):
+        self.assertEqual(utils.integrate('x ** 2 - 1', -1, 1),4/3)
         
         # À compléter...
         pass

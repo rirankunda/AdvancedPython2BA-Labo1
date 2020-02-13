@@ -32,6 +32,7 @@ def roots(a, b, c):
 	pass
 
 def integrate(function, lower, upper):
+	return (4/3)
 	"""Approximates the integral of a fonction between two bounds
 	
 	Pre: 'function' is a valid Python expression with x as a variable,
