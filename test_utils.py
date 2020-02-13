@@ -12,10 +12,12 @@ class TestUtils(unittest.TestCase):
         pass
     
     def test_roots(self):
+        self.assertEqual (utils.roots(1,2,1),-1)
         # À compléter...
         pass
     
     def test_integrate(self):
+        
         # À compléter...
         pass
 

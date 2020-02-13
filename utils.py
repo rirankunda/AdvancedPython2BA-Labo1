@@ -17,9 +17,9 @@ def fact(n):
 	pass
 
 def roots(a, b, c):
-	delta =b*b-4*a*c
+	delta =b**2-4*a*c
 	if delta==0:
-		return ('0')
+		return (-b/2*a)
 	rac1=(-b+delta**(0.5))/2*a
 	rac2=(-b-delta**(0.5))/2*a
 	return (rac1,rac2)
@@ -44,6 +44,7 @@ def integrate(function, lower, upper):
 		you'll probably need the 'eval' function to evaluate the function
 		to integrate given as a string.
 	"""
+
 	pass
 
 if __name__ == '__main__':
