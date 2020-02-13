@@ -10,9 +10,19 @@ def fact(n):
 	Post: Returns the factorial of 'n'.
 	Throws: ValueError if n < 0
 	"""
+	facto=1
+	for i in range(1,n+1):
+		facto= facto*i
+	return facto 
 	pass
 
 def roots(a, b, c):
+	delta =b*b-4*a*c
+	if delta==0:
+		return ('0')
+	rac1=(-b+delta**(0.5))/2*a
+	rac2=(-b-delta**(0.5))/2*a
+	return (rac1,rac2)
 	"""Computes the roots of the ax^2 + bx + x = 0 polynomial.
 	
 	Pre: -

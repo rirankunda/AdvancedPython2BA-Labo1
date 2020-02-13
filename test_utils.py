@@ -7,6 +7,7 @@ import utils
 
 class TestUtils(unittest.TestCase):
     def test_fact(self):
+        self.assertEqual(utils.fact(5),120)
         # À compléter...
         pass
     
